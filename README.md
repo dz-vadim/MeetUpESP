@@ -79,6 +79,9 @@ pio run -e esp32dev -t erase -t upload
 # Або тільки прошивка без очищення
 pio run -e esp32dev -t upload
 
+# Або тільки білд
+pio run -e esp32dev 
+
 # Моніторинг серійного порту
 python -m platformio device monitor
 # або
